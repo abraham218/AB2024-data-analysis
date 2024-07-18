@@ -5,7 +5,7 @@ metadata:
     app: webapp
   name: webapp
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: webapp
@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-        - image: abramdocker/webapp:13
+        - image: abramdocker/webapp:7
           name: webapp
           ports:
             - containerPort: 8081
