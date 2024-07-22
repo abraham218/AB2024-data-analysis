@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-        - image: abramdocker/webapp:7
+        - image: abramdocker/abramnginx:latest  #abramdocker/webapp:7
           name: webapp
           ports:
             - containerPort: 8081
