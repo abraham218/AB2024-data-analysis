@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+
+
+kubectl port-forward service/flask-service  -n flask-mysql-app --address 0.0.0.0 8080:80
