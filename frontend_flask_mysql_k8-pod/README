@@ -9,3 +9,5 @@
 
 
 kubectl port-forward service/flask-service  -n flask-mysql-app --address 0.0.0.0 8080:80
+The App is exposed on 5000
+http://IP:5000/
